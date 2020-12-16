@@ -1,0 +1,83 @@
+*{
+    font-family: monospace;
+    font-weight: bolder;
+}
+.buttons{
+    background-color:rgb(49, 49, 209) ;
+    height: 50px;
+}
+#admin{
+    background-color:rgb(228, 224, 21) ;
+    height: 50px;
+}
+.buttonAdmin{
+    margin-top:15px;
+    margin-left: 10px;
+    border: none;
+    text-decoration: underline;
+    background-color:rgb(228, 224, 21);
+    color: white;
+    font-size: large;
+}
+.button{
+    margin-top:15px;
+    margin-left: 10px;
+    border: none;
+    text-decoration: underline;
+    background-color:rgb(49, 49, 209);
+    color: white;
+    font-size: large;
+}
+.darkbutton{
+    margin-top:15px;
+    margin-left: 10px;
+    border: none;
+    text-decoration: underline;
+    background-color:rgb(39, 42, 43);
+    color: white;
+    font-size: large;
+}
+a{
+    color: white;
+}
+.header{
+    font-size: 80px;
+    color:lightslategray;
+}
+input{
+    margin:5px;
+}
+#submit{
+    margin:5px;
+    background-color: lightslategray;
+    height: 40px;
+    width: 100px;
+}
+input[type=text]{
+    border: 1px solid lightslategray;
+}
+label{
+    margin:5px
+}
+td{
+    border: 1px solid rgb(151, 151, 18);
+}
+#formcontainer{
+    display: flex;
+
+}
+.labeled1{
+    margin-top:8px
+}
+.labeled2{
+    margin-top:12px
+}
+.labeled3{
+    margin-top:10px
+}
+.inputregister{
+    margin-left: 5px;
+}
+#selection{
+    margin-left: 10px;
+}

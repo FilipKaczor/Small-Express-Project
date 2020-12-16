@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+    <div class="buttons">
+        <button class="button"><a href="/">main</a></button>
+        <button class="button"><a href="register">register</a></button>
+        <button class="button"><a href="login">login</a></button>
+        <button class="button"><a href="admin">admin</a></button>
+    </div><br>
+    <div class="header">register</div>
+    <br>
+    <form action="/registerForm" method="POST">
+        <div id="formcontainer">
+            <div id="labelDiv">
+                <div class="labeled1"><label for="login">login:</label></div>
+                <div class="labeled3"><label for="password">password:</label></div>
+                <div class="labeled3"><label for="wiek">wiek:</label></div>
+                <div class="labeled3"><label for="student">uczeń?</label></div>
+                <div class="labeled3"><label for="gender">płeć:</label></div>
+            </div>
+            <div id="inputDiv">      
+                <div class="inputregister"><input type="text" name="login" id="login"></div>            
+                <div class="inputregister"><input type="password" name="password" id="password"></div>       
+                <div class="inputregister" id="selection"><select id="wiek" name="wiek">
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                </select></div>
+                <div class="inputregister"><input type="checkbox" id="student" name="student" value="checked"></div>
+                <div class="inputregister"><label for="k">K</label>
+                <input type="radio" name="gender" id="k" value="k">
+                <label for="m">M</label>
+                <input type="radio" name="gender" id="m" value="m"></div>
+            </div>   
+        </div>
+        <button type="submit" value="Submit" id="submit">Submit</button>
+    </form>
+</body>
+</html>

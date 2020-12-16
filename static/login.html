@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css.css">
+
+    
+</head>
+<body>
+    <div class="buttons">
+        <button class="button"><a href="/">main</a></button>
+        <button class="button"><a href="register">register</a></button>
+        <button class="button"><a href="login">login</a></button>
+        <button class="button"><a href="admin">admin</a></button>
+    </div><br>
+    <div class="header">login</div><br>
+    <form action="/loginForm" method="GET">
+        <div id="formcontainer">
+            <div id="labelDiv">
+                <div class="labeled1"><label for="login">login:</label></div>
+                <div class="labeled2"><label for="password">password:</label></div>
+            </div>
+            <div id="inputDiv">
+                <input type="text" name="login" id="login"><br>
+                <input type="password" name="password" id="password"><br>
+            </div>
+        </div>
+        <button type="submit" value="Submit" id="submit">Submit</button>
+    </form>
+</body>
+</html>
